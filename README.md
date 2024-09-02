@@ -1,7 +1,7 @@
 <h1 align="center"><img alt="Transpose" src="assets/transpose.png" height="150px"/></h1>
 
 <div align="center">
-  A simple figma plugin to flip any layers size.
+  A simple Figma plugin to flip any layer's size.
 </div>
 
 <div align="center">
@@ -15,7 +15,7 @@
 
 ## Installation
 
-Click bellow to direct install from figma community
+Click below to install directly from the Figma community
 
 <a href="https://www.figma.com/community/plugin/1009022712992810988/Transpose"><img alt="Install Plugin" src="https://img.shields.io/endpoint?url=https://figma-plugin-badges.vercel.app/api/installs/1009022712992810988" height=24/></a>
 
@@ -23,7 +23,7 @@ Click bellow to direct install from figma community
 
 ### 1. Transpose > Each one
 
-Select One (1) or more layers and run the plugin.
+Select one or more layers and run the plugin. Each layer will be resized individually.
 
 !["Layer flip"](assets/banner.gif)
 
@@ -31,15 +31,14 @@ Select One (1) or more layers and run the plugin.
 
 ### 2. Transpose > Grouped
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies ut nisl vitae molestie. Sed sit amet mauris ac orci faucibus semper. Duis ultrices vitae ligula eget consectetur.
+Select multiple layers and choose this option to resize them as a group. (Feature coming soon)
 
 </br>
 
-> #### Tips : Launch plugins actions with custom keyboard
+> #### Tips: Launch plugin actions with custom keyboard shortcuts
 >
-> For **Mac users** it is possible to associate natively a
-> keyboard shortcut to your figma plugin from settings
-> -learn more in this [youtube videos](https://www.youtube.com/watch?v=r-6q1AJNeTQ) or use
+> For **Mac users**, it is possible to natively associate a keyboard shortcut to your Figma plugin from settings.
+> - Learn more in this [YouTube video](https://www.youtube.com/watch?v=r-6q1AJNeTQ) or use
 > [this method](https://www.youtube.com/watch?v=hkbTDbXc5Ng) for **Windows users**.
 
 ## Object handled
@@ -52,10 +51,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies ut nisl v
 - GROUP
 - FRAME
 - COMPONENT/ INSTANCE
+- LINE (New: special handling to preserve the central position)
 
 ## Support
 
-Do you find this plugin useful ? </br> please consider to make a donation to support 🙏🏼
+Do you find this plugin useful? </br> Please consider making a donation to support 🙏🏼
 
 <p>
 <a href="https://www.buymeacoffee.com/mrstev3n"><img alt="Buy Me A Coffee" src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height=32></a>
@@ -68,28 +68,28 @@ Do you find this plugin useful ? </br> please consider to make a donation to sup
 
 - Clone the repository.
 - `npm install` installs all the dependencies.
-- `npm build` builds and bundles the plugin.
-- Import manifest into Figma and test.
+- `npm run build` builds and bundles the plugin.
+- Import the manifest into Figma and test.
 
 ### Contribution
 
-Contributions are welcomed, feel free to make a pull request or create an issue
+Contributions are welcome. Feel free to make a pull request or create an issue.
 
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/pull/)
 [![GitHub issues](https://img.shields.io/github/issues/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/issues/)
 
 ## Credits and Thanks
 
-V2 - Maker : [@mrstev3n](https://github.com/mrstev3n),
-V2 - Tester : [@rickfaf](https://github.com/rickfaf)
+V2 - Maker: [@mrstev3n](https://github.com/mrstev3n),
+V2 - Tester: [@rickfaf](https://github.com/rickfaf)
 
-- Plugin with parameters : Transpose, each one | grouped
+- Plugin with parameters: Transpose, each one | grouped
 
-V1 - Maker : [@mrstev3n](https://github.com/mrstev3n)
+V1 - Maker: [@mrstev3n](https://github.com/mrstev3n)
 
 - Run-once plugin with simple flip action
 
-Big thanks to [@boussarilatif](https://github.com/boussarilatif) & [@rickfaf](https://github.com/rickfaf) for support, testing and code snippets </br> useful for the proper functioning of the plugin.
+Big thanks to [@boussarilatif](https://github.com/boussarilatif) & [@rickfaf](https://github.com/rickfaf) for support, testing, and code snippets </br> useful for the proper functioning of the plugin.
 
 </br>
 
